@@ -1,0 +1,62 @@
+/*This changes the background color of the div blocks*/
+#headSection,
+#contact,
+#skills,
+#education,
+#work,
+#project {
+    background-color: CornflowerBlue;
+}
+
+/* This changes the background color, adjusts the margin on the page and changes the font of the body section*/
+#theBody {
+    background-color: LightCoral;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    font-family: Ebrima, Gadugi;
+}
+
+/*This centers all text in the respective element blocks*/
+h1,
+h2,
+h4,
+p,
+ol,
+ul {
+    text-align: center;
+}
+
+/*This removes the numbers and bullet points from the lists*/
+ul,
+ol {
+    list-style-type: none;
+}
+
+/*This adjusts the image posotion and adds padding at the bottom*/
+img {
+    margin-left: 39%;
+    margin-right: 35%;
+    padding-bottom: 30px;
+}
+
+/*I use the hover class to enlarge text whenever it is hovered over*/
+#contact:hover,
+#skills:hover,
+#education:hover,
+#work:hover,
+#project:hover {
+    font-size: 120%;
+}
+
+/*This margin adjustment makes the paragraphes in the header element more narrow*/
+#headSection p {
+    margin-left: 7%;
+    margin-right: 7%;
+
+}
+
+/*This changes the font size and font family of the top header*/
+#topHead {
+    font-size: 50px;
+    font-family: Rockwell;
+}
